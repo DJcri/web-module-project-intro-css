@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap");
+
+html {
+  border-collapse: collapse;
+  font-family: "Roboto Mono", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer {
+  padding-bottom: 20px;
+  background: #f9e7dc;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.park-guide {
+  float: left;
+  width: 710px;
+  padding-top: 50px;
+}
+
+.park-guide p {
+  margin: 25px;
+  font-size: 1.1em;
+}
+
+.reservations {
+  padding: 0 150px;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 3.5em;
+}
+
+img {
+  width: 15%;
+  margin: 20px;
+}
+
+ul {
+  height: 100px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 30px 50px;
+}
+
+a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  box-sizing: border-box;
+  width: 150px;
+  color: white;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.header-img {
+  float: left;
+  background: url(assets/header_img.jpg);
+  background-position: center;
+  background-size: 250px auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 30px 0;
+}
+
+.footer-img {
+  background: url(assets/footer_img.jpg);
+  background-size: 960px auto;
+  background-position: top;
+  height: 250px;
+}
+
+.plan {
+  background-color: #ff764e;
+}
+
+.learn {
+  background-color: #5ed3eb;
+}
+
+.involve {
+  background-color: #ffcd69;
+}
+
+.desc {
+  background: #ddb9a3;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 320px;
+  padding: 15px 20px;
+}
+
+.fire-restrictions,
+.park-entrance {
+  margin: 0 auto 20px;
+  width: 35%;
+  font-size: 0.9em;
+}
+
+.park-entrance {
+  margin-bottom: 80px;
+}
+
+a:hover {
+  background: white;
+}
+
+.plan:hover {
+  color: #ff764e;
+}
+
+.learn:hover {
+  color: #5ed3eb;
+}
+
+.involve:hover {
+  color: #ffcd69;
+}
